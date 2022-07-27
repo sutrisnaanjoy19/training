@@ -1,0 +1,9 @@
+#########################################
+'''class MyException(Exception):\\
+    pass
+    try:
+        {}[3]
+    except keyError as e:
+        logger.error("hgf")
+        raise ParserException("invalid key") from e'''
+
