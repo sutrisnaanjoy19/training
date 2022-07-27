@@ -1,0 +1,11 @@
+producer = new Producer(...)
+message = new Message("test message str".getBytes())
+set = new MessageSet(message)
+producer.send("topic1", set)
+
+streams[] = Consumer.createMesageStrams("topic1" , 1)
+for(message : stream[0])
+{
+    bytes == message.payload();
+    //do something
+}
